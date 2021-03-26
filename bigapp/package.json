@@ -1,0 +1,18 @@
+{
+  "name": "bigapp",
+  "version": "1.0.0",
+  "description": "Node Technical Assignment",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "author": "Shaik Shajahan",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.12.2",
+    "morgan": "^1.10.0",
+    "nodemailer": "^6.5.0"
+  }
+}
