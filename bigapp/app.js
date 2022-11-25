@@ -20,7 +20,7 @@ app.use("/mailservice", mailService);
 app.use(bodyParser.urlencoded({ extended: true }));
 
 // set port, listen for requests
-const PORT = 4000;
+const PORT = 4001;
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
